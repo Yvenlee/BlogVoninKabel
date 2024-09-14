@@ -1,7 +1,7 @@
 ---
 title: "L'ultime ressort"
 date: "2024-08-12"
-description: "Les derniers conflits"
+description: "Les derniers conflits et ma conclusion"
 ---
 
 -Lundi 12 Aout 15h retour sur la semaine avec Ben et Liliane. <br> 
@@ -15,5 +15,5 @@ J'ai d'abord affiché l'adresse mint du token, puis son nom, sa quantité était
 -Lundi 19 aout, 15h commençait la dernière semaine du stage. On revient sur la semaine passée et tout fonctionne correctement. Ben nous a demandé de nous focaliser sur le style pour faire quelque chose de stylé qui nous corresponde et qui corresponde à la charte graphique du site. <br>
 -Jeudi 22 aout. Ben valide la pull request après avoir apporté des modifications. Le prix total de la somme des tokens possédés par l’utilisateur est affiché et le style légèrement revu.  Un appel Discord se lance avec Tchiki et Liliane pour réaliser une démonstration de nos travaux de la semaine passée. On voit bien les tokens en devnet et j’explique que je ne peux pas avoir de rendu sur mainnet car je ne possède pas de tokens sur ce réseau, en étant persuadé que le code fonctionnait sans erreur sur ce réseau. Tchiki m’envoie alors 10 000 BONK sur ce réseau et au moment de faire le test : Aucun token disponible. Surprise générale Ben a fait les tests lui-même et tout semblait en ordre. En creusant j’ai alors découvert que @solana/spl-token-registry n’était plus à jour depuis plusieurs années mais que les développeurs se servaient de solana/spl-token. <br>
 -Le lendemain vendredi 23 aout, Tchiki me suggère d’utiliser la liste de Jupiter pour récupérer ces données. Ça fonctionne. Je fais toujours appel à l’api d’Alchemy pour me connecter aux réseaux de Solana mais je passe par Jupiter pour récupérer les données des tokens. On voit maintenant sur le réseau Mainnet, le nom des token et leur quantité. <br>
--Pour conclure, une dernière réunion a eu lieu dans laquelle j’ai montré ce résultat à Liliane, Ben et Tchiki. Les objectifs ont été atteins et un retour sur l’ensemble du stage a été réalisé. Ben et Tchiki étaient fiers de nous même si le manque d’autonomie s’est fait ressentir notamment sur les débuts de la réalisation du Dashboard.
+-Pour conclure, une dernière réunion a eu lieu dans laquelle j’ai montré ce résultat à Liliane, Ben et Tchiki. Les objectifs ont été atteins et un retour sur l’ensemble du stage a été réalisé. Ben et Tchiki étaient fiers de nous même si le manque d’autonomie s’est fait ressentir notamment sur les débuts de la réalisation du Dashboard. <br> <br>
 Ce stage a été pour moi une immense source de connaissances, j’ai été super heureux de travailler avec ces personnes dans la joie et la bonne humeur, nous sommes venus à bout de tous les obstacles rencontrés avec plus ou moins de difficultés et j’ai appris à bien travailler en équipe avec les pull requests et les branches git, j’ai appris pas mal de choses sur le Web3 que j’aurais probablement ignorées sans ce stage et j’ai appris à mieux développer en TypeScript/Javascript avec NextJs. 
