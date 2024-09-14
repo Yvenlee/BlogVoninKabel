@@ -1,9 +1,13 @@
 ---
-title: "Le grand départ"
+title: " Le grand départ"
 date: "2024-06-24"
 description: "Page Lore de ThugzLife"
 ---
 
-# Bienvenue sur mon premier article de blog
-
-Ceci est un exemple d'article écrit en Markdown.
+Next.Js. Je connaissais le framework de nom et ce stage était l’occasion parfaite pour moi de le découvrir et de l’exploiter. Julian SCHMERKIN alias "Tchiki" (CEO) et Benjamin ARTHUYS alias "Ben" (CSO) se sont mis d’accord pour m’assigner comme première mission, d’aller au bout du tutoriel officiel de Next.Js pour partir avec un minimum pour pouvoir comprendre et avancer sur l’environnement de développement sur lequel j’étais amené à travailler. J'ai 1 semaine pour finir un tutoriel de 16 chapitres ! Tout se passe bien jusqu’au chapitre 6 où l’on aborde Vercel qui est une plateforme d’hébergement permettant l’utilisation de bases de données, Postgres SQL notamment. Ayant mal compris la consigne j’étais persuadé de l’existence d’un bug ou d’un problème de version alors j’ai décidé de continuer le tutoriel malgré ce problème et j’en suis finalement venu à bout. <br> Tous les Lundi a 15h, un réunion google meet a été fixée avec Ben. Un retour sur la semaine était fait et de nouveaux tickets m'étaient assignés.
+Depuis la plateforme Jira, j'avais accès à toutes les missions disponibles et Ben m'en a choisi plusieurs sous forme de "tickets" nommés THUGZ-xx. Le ticket THUGZ-7 était lié à la réalisation de ma première page web sur leur site. La page Lore.
+Depuis Github, j'ai crée ma branche sur laquelle travailler, elle devait avoir le nom du ticket et liée à son contenu, je l'ai orignialement appelée "THUGZ-7-Lore". Un design sur figma était disponible et je devais refaire la page à l'identique afin d'obtenir le résultat suivant : https://www.thugz.life/lore
+<br>
+Afin d'arriver à ce résultat j'ai pris pas mal de temps (7jours) car il fallait d'abord que je prenne en main la version de NextJs (14.2.3) qui était différente de celle sur laquelle j'ai fait le tutoriel (14.2.10) et quelques details changaient comme le nom des fichiers, index.tsx au lieu de page.tsx. J'ai bloqué sur la grille à respecter, Première texte à gauche, l'image à droite, deuxième image à gauche, le texte à droite et le dernier texte à droite. Le footer et le header étaient déjà faits dans un composant exterieur j'avais juste à l'importer au bon endroit. <br>
+J'ai redécouvert que le sens (droite ou gauche) dépendait dans le code, de la première div qu'on affichait. J'ai aussi fait ma première erreur. Ne pas demander de l'aide et peiner seul car je suis persuadé de pouvoir trouver la solution avec du temps. Malheureusement le temps est une denrée plus que nécessaire et le gacher ainsi est simplement contre-productif.
+La semaine est passée, lundi 15h Ben me donne de grandes pistes pour réussir et le lendemain Mardi 9 Juillet la page lore est terminée, fidèle au design Figma et tout est parfait !
