@@ -9,8 +9,8 @@ export default function About() {
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Colonne gauche : Contenu des sections */}
           <div className="space-y-6 md:space-y-8">
-            <header className="rounded-lg p-6 md:p-8 bg-white shadow-lg">
-              <h1 className="text-4xl md:text-3xl font-bold text-black mb-4 md:mb-2">
+            <header className="rounded-lg p-6 md:p-8 bg-white shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
+              <h1 className="text-4xl md:text-3xl font-extrabold text-black mb-4 md:mb-2">
                 À propos de Vonin-Kabel Yvenlee
               </h1>
               <p className="text-black text-lg md:text-base">
@@ -18,18 +18,18 @@ export default function About() {
               </p>
             </header>
 
-            <section className="rounded-lg p-6 md:p-8 bg-white shadow-lg">
+            <section className="rounded-lg p-6 md:p-8 bg-white shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
               <h2 className="text-2xl md:text-xl font-bold text-black mb-4 md:mb-2">
                 Un peu plus sur moi
               </h2>
-              <p className="text-black text-base md:text-sm">
-                Je suis étudiant en cours de validation de la 2ème année de bachelor à Paris Ynov Campus. J'aime développer et j'ai toujours voulu voir ce qu'il y avait de l'autre coté de tout ce que l'on voit partout.
+              <p className="text-black text-base md:text-sm leading-relaxed">
+                Je suis étudiant en 3ème année de bachelor (Informatique(Data&IA)) à Paris Ynov Campus. J'aime développer et j'ai toujours voulu voir ce qu'il y avait de l'autre côté de tout ce que l'on voit partout.
                 Cette voie que je suis me plaît beaucoup et j'ai hâte d'en découvrir toujours plus ! J'ai appris à travailler avec NextJs, Laravel, BootStrap, Tailwind, Windows Server, PHPmyadmin, Unreal Engine afin de réaliser des projets d'école et personnels.
               </p>
             </section>
 
             {/* Nouvelle section : Langages informatiques maîtrisés */}
-            <section className="rounded-lg p-6 md:p-8 bg-white shadow-lg">
+            <section className="rounded-lg p-6 md:p-8 bg-white shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
               <h2 className="text-2xl md:text-xl font-bold text-black mb-4 md:mb-2">
                 Langages informatiques maîtrisés
               </h2>
@@ -49,8 +49,8 @@ export default function About() {
           {/* Colonne droite : Contact + CV */}
           <div className="space-y-8">
             {/* Section contact */}
-            <div className="bg-white text-black p-6 md:p-8 rounded-lg shadow-lg w-full text-center">
-              <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">Contact</h2>
+            <div className="bg-white text-black p-6 md:p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl w-full text-center">
+              <h2 className="text-2xl md:text-3xl font-extrabold mb-4 md:mb-6">Contact</h2>
               <p className="text-base md:text-lg">
                 Vous pouvez me contacter via les informations ci-dessous :
               </p>
@@ -62,8 +62,8 @@ export default function About() {
             </div>
 
             {/* Section CV */}
-            <div className="bg-white text-black p-6 md:p-8 rounded-lg shadow-lg w-full text-center">
-              <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">Mon CV</h2>
+            <div className="bg-white text-black p-6 md:p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl w-full text-center">
+              <h2 className="text-2xl md:text-3xl font-extrabold mb-4 md:mb-6">Mon CV</h2>
               <p className="text-base md:text-lg">
                 Téléchargez et consultez mon CV pour en savoir plus sur mes compétences et mes expériences.
               </p>
